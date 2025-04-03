@@ -481,6 +481,12 @@
   "IPFS API": {
     "endpoint": "Endpoint",
     "gateway": "Gateway",
+    "mode": "Mode",
+    "modes": {
+      "ipfs": "Ipfs",
+      "ipns": "Ipns",
+      "mfs": "Mfs"
+    },
     "root_folder_path": "Root folder path"
   },
   "KodBox": {
