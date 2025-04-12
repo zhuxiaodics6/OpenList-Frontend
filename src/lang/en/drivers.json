@@ -811,6 +811,9 @@
   },
   "Thunder": {
     "captcha_token": "Captcha token",
+    "credit_key": "Credit key",
+    "credit_key-tips": "credit key,used for login",
+    "device_id": "Device id",
     "password": "Password",
     "root_folder_id": "Root folder id",
     "username": "Username"
@@ -878,6 +881,8 @@
     "client_id": "Client id",
     "client_secret": "Client secret",
     "client_version": "Client version",
+    "credit_key": "Credit key",
+    "credit_key-tips": "credit key,used for login",
     "device_id": "Device id",
     "download_user_agent": "Download user agent",
     "login_type": "Login type",
