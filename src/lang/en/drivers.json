@@ -375,7 +375,8 @@
   },
   "Doubao": {
     "cookie": "Cookie",
-    "root_folder_id": "Root folder id"
+    "root_folder_id": "Root folder id",
+    "upload_thread": "Upload thread"
   },
   "Dropbox": {
     "client_id": "Client id",
