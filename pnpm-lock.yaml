@@ -42,11 +42,11 @@ importers:
         specifier: ^1.10.1
         version: 1.10.1
       artplayer:
-        specifier: ^5.0.9
-        version: 5.0.9
+        specifier: ^5.2.2
+        version: 5.2.2
       artplayer-plugin-danmuku:
-        specifier: ^5.0.1
-        version: 5.0.1
+        specifier: ^5.1.5
+        version: 5.1.5
       asciinema-player:
         specifier: ^3.6.3
         version: 3.6.3
@@ -72,8 +72,8 @@ importers:
         specifier: ^4.12.0
         version: 4.12.0
       hls.js:
-        specifier: ^1.2.1
-        version: 1.2.1
+        specifier: ^1.6.1
+        version: 1.6.1
       just-once:
         specifier: ^2.2.0
         version: 2.2.0
@@ -740,11 +740,11 @@ packages:
     resolution: {integrity: sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==}
     engines: {node: '>=8'}
 
-  artplayer-plugin-danmuku@5.0.1:
-    resolution: {integrity: sha512-b6/Y4/+X0rNmnqS5+zzQgow+WW4iVT8eFv4LAUzJgIyORIcf5Gn00Dy0PZ+kwGb1VJy0CUCRK6gVVvh0tWsRAg==}
+  artplayer-plugin-danmuku@5.1.5:
+    resolution: {integrity: sha512-iFjdXVbkw5FbkB98SOwMPQEFJp7k6Io4nHfehpSdCc7Eo1gkmjNShOT6dAtAH1kLMHjh38vRnf/oYwCvTKkVOw==}
 
-  artplayer@5.0.9:
-    resolution: {integrity: sha512-IM/DShYdmKFEA9jl08LYbTK2Jfz9s7qIjEH0xWjnxvVArUKZZKcoqwr6i54U0c4grtc/Uvb4wtCd78kvtSVlgw==}
+  artplayer@5.2.2:
+    resolution: {integrity: sha512-JsPRA9e+7KyWTh5KBeKLTcCigzGhpZulRFXvOeiFMbxnpPz9kZ/1STp1LZONqQXHkxX9wHTO6JhGOvzrduH2Lw==}
 
   asciinema-player@3.6.3:
     resolution: {integrity: sha512-62aDgLpbuduhmpFfNgPOzf6fOluACLsftVnjpWJjUXX6dqhqTckFqWoJ+ayA0XjSlZ9l9wXTcJqRqvAAIpMblg==}
@@ -1163,8 +1163,8 @@ packages:
   hey-listen@1.0.8:
     resolution: {integrity: sha512-COpmrF2NOg4TBWUJ5UVyaCU2A88wEMkUPK4hNqyCkqHbxT92BbvfjoSozkAIIm6XhicGlJHhFdullInrdhwU8Q==}
 
-  hls.js@1.2.1:
-    resolution: {integrity: sha512-+m/5+ikSpmQQvb6FmVWZUZfzvTJMn/QVfiCGP1Oq9WW4RKrAvxlExkhhbcVGgGqLNPFk1kdFkVQur//wKu3JVw==}
+  hls.js@1.6.1:
+    resolution: {integrity: sha512-7GOkcqn0Y9EqU2OJZlzkwxj9Uynuln7URvr7dRjgqNJNZ5UbbjL/v1BjAvQogy57Psdd/ek1u2s6IDEFYlabrA==}
 
   html-entities@2.3.2:
     resolution: {integrity: sha512-c3Ab/url5ksaT0WyleslpBEthOzWhrjQbg75y7XUsfSzi3Dgzt0l8w5e7DylRn15MTlMMD58dTfzddNS2kcAjQ==}
@@ -2643,9 +2643,9 @@ snapshots:
 
   array-union@2.1.0: {}
 
-  artplayer-plugin-danmuku@5.0.1: {}
+  artplayer-plugin-danmuku@5.1.5: {}
 
-  artplayer@5.0.9:
+  artplayer@5.2.2:
     dependencies:
       option-validator: 2.0.6
 
@@ -3112,7 +3112,7 @@ snapshots:
 
   hey-listen@1.0.8: {}
 
-  hls.js@1.2.1: {}
+  hls.js@1.6.1: {}
 
   html-entities@2.3.2: {}
 
