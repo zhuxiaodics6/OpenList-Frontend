@@ -1,5 +1,5 @@
 {
-  "name": "openlist-frontend",
+  "name": "@openlist-frontend/openlist-frontend",
   "version": "0.0.0",
   "author": {
     "name": "The OpenList Projects Contributors",
@@ -9,7 +9,7 @@
   "packageManager": "pnpm@9.9.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xyamzw/OpenList-Frontend.git"
+    "url": "git+https://github.com/OpenListTeam/OpenList-Frontend.git"
   },
   "bugs": {
     "url": "https://github.com/OpenListTeam/OpenList/issues"
