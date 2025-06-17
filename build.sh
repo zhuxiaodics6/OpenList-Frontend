@@ -125,12 +125,8 @@ log_info "Archive name will be: ${archive_name}.tar.gz"
 log_step "==== Installing dependencies ===="
 pnpm install
 
-if [ "$BUILD_TYPE" == "release" ]; then
-    log_step "==== Building i18n ===="
-    pnpm i18n:release
-else
-    log_warning "Skipping i18n:release in dev mode."
-fi
+log_step "==== Building i18n ===="
+pnpm i18n:release || log_warning "i18n build failed, continuing..."
 
 log_step "==== Building project ===="
 pnpm build
