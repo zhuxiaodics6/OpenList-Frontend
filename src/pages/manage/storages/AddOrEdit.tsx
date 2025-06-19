@@ -144,8 +144,8 @@ const AddOrEdit = () => {
           </Alert>
         </Show>
       </VStack>
-      <ResponsiveGrid>
-        <Show when={drivers()[storage.driver]}>
+      <Show when={drivers()[storage.driver]}>
+        <ResponsiveGrid>
           <For each={drivers()[storage.driver].common}>
             {(item) => (
               <Item
@@ -158,6 +158,16 @@ const AddOrEdit = () => {
               />
             )}
           </For>
+          <Item
+            name="auto_reconnect_interval"
+            type={Type.Number}
+            value={storage.auto_reconnect_interval}
+            onChange={(val: any) => {
+              setStorage("auto_reconnect_interval", val)
+            }}
+            full_name_path="storages.common.auto_reconnect_interval"
+            remark={t("storages.common.auto_reconnect_interval_remark")}
+          />
           <For each={drivers()[storage.driver].additional}>
             {(item) => (
               <Item
@@ -170,8 +180,8 @@ const AddOrEdit = () => {
               />
             )}
           </For>
-        </Show>
-      </ResponsiveGrid>
+        </ResponsiveGrid>
+      </Show>
       <Button
         mt="$2"
         loading={okLoading()}

@@ -37,6 +37,7 @@ export interface Storage {
   extract_folder: ExtractFolder
   web_proxy: boolean
   webdav_policy: WebdavPolicy
+  auto_reconnect_interval: number // 自动重连时间间隔，单位分钟
   disabled: boolean
 }
 
